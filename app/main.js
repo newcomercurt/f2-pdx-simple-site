@@ -3,21 +3,21 @@ var course = {
   "name": "Foundations 2: JavaScript",
   "lectures": [{
     "topic": "Intro, JavaScript Basics 1",
-    "notes": ["The primitive data types are Boolean, Null, Undefined, Number, and String.",
-      "Parameters become variables inside their function.",
-      "A method is a function that is also the value of an object property."
+    "notes": ["There are many console methods available other than log. Node allows you to use JavaScript in your own terminal rather than the browser",
+      "JavaScript is used make sites interactive",
+      "JavaScript can help streamline tasks so similar code does not have to be written multiple times"
     ]
   }, {
     "topic": "JavaScript Basics 2 & Intro to Node",
-    "notes": ["Logical operators return the result of the last expression evaluated.",
-      "Loops execute the same instructions multiple times.",
-      "An infinite loop is a loop that never satisfies its exit condition."
+    "notes": ["logial operators can be used to check multiple conditions",
+      "almost everything in JavaScript is an object with key/value pairs, arrays contain lists of values",
+      "jshint and jscs check your code for errors and can help in cleaning up your code"
     ]
   }, {
     "topic": "Array Methods, Functions & Scope/Hoisting",
-    "notes": ["join() takes a delimiter, returns a string.",
-      "Generally useful code is often packaged up as a collection of functions and data in libraries.",
-      "JavaScript is function-scoped."
+    "notes": ["methods are functions within an an object",
+      "callbacks are functions we pass as arugments to use later",
+      "local vs global variables, local variables are declared inside a function and are only accessible to code within that function, global functions are accesible to all of the code within the script file"
     ]
   }, {
     "topic": "OOP in JavaScript and Classes/Inheritance",
