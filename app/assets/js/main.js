@@ -10,3 +10,12 @@ $("button").click(function() {
     $("#show-" + url).text(resText);
   });
 });
+
+$("form").on("submit", function(event) {
+  event.preventDefault();
+  $.get("search", {
+    search: this.searchText.value
+  }).success(function(results) {
+    console.log(results)
+  })
+});
